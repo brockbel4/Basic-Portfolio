@@ -1,6 +1,50 @@
 /* This is the main style sheet for the portfolio */
 
+.topNavBar
+{
+    padding-bottom: 35px;
+    border: 0px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    height: 85px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.name
+{
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 60px;
+    padding: 25px;
+    width: 426px;
+    float: left;
+}
+
+.navLinks
+{
+    color: #777777;
+    float: right;
+    height: 85px;
+    padding: 42.5px;
+    font-size: 25px;
+}
+
 .headerOne
 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 50px;
+}
 
+.aboutMe
+{
+    float: left;
+}
+
+.mainContainers
+{
+    width: 960px;
+    margin: 0 auto;
 }
