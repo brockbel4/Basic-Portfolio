@@ -31,7 +31,22 @@
     font-size: 25px;
 }
 
-.headerOne
+.indexLink
+{
+    display: inline-block;
+}
+
+.portfolioLink
+{
+    display: inline-block;
+}
+
+.contactLink
+{
+    display: inline-block;
+}
+
+.miniTitle
 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
