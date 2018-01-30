@@ -13,13 +13,20 @@
 
 .name
 {
-    color: white;
+    color: White;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 60px;
     padding: 25px;
     width: 426px;
     float: left;
+}
+
+myDescription
+{
+    float: left;
+    background-color: #ffffff;
+    width: 650px;
 }
 
 .navLinks
@@ -51,6 +58,7 @@
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 50px;
+    float: left;
 }
 
 .aboutMe
