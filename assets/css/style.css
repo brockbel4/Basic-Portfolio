@@ -15,7 +15,7 @@
 {
     color: white;
     background-color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 60px;
     padding: 25px;
     width: 426px;
@@ -27,8 +27,12 @@
     color: #777777;
     float: right;
     height: 85px;
-    padding: 42.5px;
-    font-size: 25px;
+    padding-left: 42.5px;
+    padding-bottom: 42.5px;
+    padding-top: 42.5px;
+    padding-right: 0px;
+    font-size: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .indexLink
@@ -39,6 +43,12 @@
 .portfolioLink
 {
     display: inline-block;
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .contactLink
@@ -49,8 +59,10 @@
 .miniTitle
 {
     color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 50px;
+    width: 650px;
+    padding-bottom: 40px;
 }
 
 .aboutMe
@@ -62,4 +74,40 @@
 {
     width: 960px;
     margin: 0 auto;
+    background-color: blue;
+}
+
+.myDescription
+{
+    padding: 50px;
+    width: 550px;
+    background-color: red;
+}
+
+.brockPic
+{
+    width: 240px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    float: left;
+}
+
+.paragraphs
+{
+    font-size: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.socialSection
+{
+    float: right;
+    width: 270px;
+    background-color: purple;
+    border: 5px solid orange;
+}
+
+footer
+{
+    width: 600px;
 }
