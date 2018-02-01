@@ -9,13 +9,15 @@
     height: 85px;
     width: 960px;
     margin: 0 auto;
+    position: fixed;
+    z-index: 100;
 }
 
 .name
 {
     color: White;
     background-color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 60px;
     padding: 25px;
     width: 426px;
@@ -34,8 +36,12 @@ myDescription
     color: #777777;
     float: right;
     height: 85px;
-    padding: 42.5px;
-    font-size: 25px;
+    padding-left: 42.5px;
+    padding-bottom: 42.5px;
+    padding-top: 42.5px;
+    padding-right: 0px;
+    font-size: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .indexLink
@@ -46,6 +52,12 @@ myDescription
 .portfolioLink
 {
     display: inline-block;
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .contactLink
@@ -56,9 +68,10 @@ myDescription
 .miniTitle
 {
     color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 50px;
-    float: left;
+    width: 650px;
+    padding-bottom: 40px;
 }
 
 .aboutMe
@@ -70,4 +83,79 @@ myDescription
 {
     width: 960px;
     margin: 0 auto;
+    background-color: blue;
+}
+
+.myDescription
+{
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-right: 0px;
+    width: 650px;
+    background-color: red;
+    float: left;
+    margin-top: 180px;
+    margin-right: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.brockPic
+{
+    width: 240px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    float: left;
+}
+
+.paragraphs
+{
+    font-size: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 600px;
+}
+
+.socialSection
+{
+    float: right;
+    width: 270px;
+    background-color: purple;
+    border: 5px solid orange;
+    font-size: 30px;
+    color: #4aaaa5;
+    height: 250px;
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 175px;
+    margin-bottom: 0px;
+}
+
+.socialPics
+{
+    padding-top: 25px;
+}
+
+.connect
+{
+    padding-right: 10px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    border-bottom: 3px solid #777777;
+    width: 225px;
+}
+
+.push
+{
+    height: 50px;
+}
+
+footer
+{
+    width: 960px;
+    height: 50px;
+    margin-top: 200px;
+    background-color: #777777;
+    border-top: 5px solid #4aaaa5;
 }
