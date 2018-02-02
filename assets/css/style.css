@@ -29,6 +29,7 @@
     padding: 25px;
     width: 426px;
     float: left;
+    height: 70px;
 }
 
 myDescription
@@ -86,6 +87,11 @@ myDescription
     float: left;
 }
 
+.portfolioSection
+{
+    float: left;
+}
+
 .mainContainers
 {
     width: 960px;
@@ -100,6 +106,20 @@ myDescription
 }
 
 .myDescription
+{
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-right: 0px;
+    width: 650px;
+    background-color: red;
+    float: left;
+    margin-top: 180px;
+    margin-right: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.myPortfolio
 {
     padding-left: 20px;
     padding-bottom: 50px;
@@ -159,6 +179,51 @@ myDescription
     width: 225px;
 }
 
+input[type=text], select 
+{
+    width: 600px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #777777;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] 
+{
+    width: 150px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #777777;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover
+{
+    background-color: #777777;
+    border: 1px solid #4aaaa5;
+}
+
+input[type=submit]:active
+{
+    background-color: #777777;
+    border: 2px solid #4aaaa5;
+}
+
+input[type=submit]:focus
+{
+    background-color: #777777;
+    border: 1px solid #4aaaa5;
+}
+
+#message
+{
+    height: 300px;
+}
+
 .push
 {
     height: 50px;
@@ -173,4 +238,9 @@ footer
     border-top: 5px solid #4aaaa5;
     position: relative;
     display: inline-block;
+}
+
+body
+{
+    background-color: black;
 }

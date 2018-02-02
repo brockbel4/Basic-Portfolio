@@ -8,40 +8,79 @@
     <title>Brock Belmonte</title>
 </head>
 <body>
+    
 <header>
 
     <div class="topNavBar">
-    <div class="name">
-        <p>Brock Belmonte</p>
-    </div>
-    <div class="navLinks">
-            <div class="indexLink">
-                    <a href="index.html">About</a>
-               </div>
-               <div class="portfolioLink">
-                   <a href="portfolio.html">Portfolio</a>
-               </div>
-               <div class="contactLink">
-                   <a href="contact.html">Contact</a>
-               </div>
-    </div>
+        <div class="navContent">
+            <div class="name">
+                <p>Brock Belmonte</p>
+            </div>
+                <div class="navLinks">
+                    <div class="indexLink">
+                         <a href="index.html">About</a>
+                    </div>
+                    <div class="portfolioLink">
+                        <a href="portfolio.html">Portfolio</a>
+                    </div>
+                    <div class="contactLink">
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+        </div>        
     </div>
 
 </header>
-
+<div class="mainContainers">
+  <div class="myPortfolio">
+    <div class="portfolioSection">
         <h1 class="miniTitle">Portfolio</h1>
+    </div>
 
-            <img src="./assets/images/Github.png" alt="Github" width="100px"/>
+    <div>
+            <form>
+                <label for="name">Name</label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="Your name...">
+                <br><br>
+              
+                <label for="email">Email</label>
+                <br>
+                <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                <br><br>
+    
+                <label for="message">Message</label>
+                <input type="text" id="message" name="message" placeholder="Enter your message to me here...">
+                
+                  <input type="submit" value="Submit">
+            </form>
+    </div>
 
-            <img src="./assets/images/linkedin.png" alt="Linkedin" width="100px"/>
+  </div>
+    <div class="socialSection">
 
-            <img src="./assets/images/Stackoverflow.png" alt="Stack Overflow" width="100px"/>
+        <div class="connect">
+            <h2>Connect with Me</h2>
+        </div>
 
-    <footer>
-            <p>Posted by: Brock Belmonte</p>
-            <p>Contact information: <a href="mailto:brockbel@gmail.com">
-            brockbel@gmail.com</a>.</p>
-          </footer>          
+        <div class="socialPics">
+            <img src="./assets/images/Github.png" alt="Github" width="85px"/>
+
+            <img src="./assets/images/linkedin.png" alt="Linkedin" width="85px"/>
+
+            <img src="./assets/images/Stackoverflow.png" alt="Stack Overflow" width="85px"/>
+        </div>
+    </div>
+
+  <div class="push">
+  </div>               
+</div>
+
+<footer>
+    <p>Copyright © 2018 Brock Belmonte</p>
+    <!-- <p>Contact information: <a href="mailto:brockbel@gmail.com">
+    brockbel@gmail.com</a>.</p> -->
+</footer> 
 
 </body>
 </html>
